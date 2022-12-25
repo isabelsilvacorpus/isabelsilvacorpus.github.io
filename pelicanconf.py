@@ -1,6 +1,7 @@
 AUTHOR = 'Isabel Silva Corpus'
 SITENAME = 'Isabel Silva Corpus'
 SITEURL = 'https://isabelsilvacorpus.github.io'
+SITEURL_ABS = SITEURL
 
 PLUGIN_PATHS = ['./pelican-plugins']
 PLUGINS = ['sitemap', 'post_stats', 'feed_summary']
@@ -34,3 +35,17 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 THEME = '/Users/isabelcorpus/.pyenv/versions/website/lib/python3.8/site-packages/pelican/themes/simple'
+
+SITEMAP = {
+    "format": "xml",
+    "priorities": {
+        "articles": 0.5,
+        "indexes": 0.5,
+        "pages": 0.5
+    },
+    "changefreqs": {
+        "articles": "monthly",
+        "indexes": "daily",
+        "pages": "monthly"
+    }
+}
