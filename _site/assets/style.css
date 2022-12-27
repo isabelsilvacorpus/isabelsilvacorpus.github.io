@@ -67,12 +67,12 @@ html {
 }
 
 body {
-  background: #fff;
+  background: #fff7f0;
   font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   height: 100%;
 }
 
@@ -84,13 +84,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
-  font-weight: bold;
+  font-weight: 450;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 @media screen and (max-width: 640px) {
   h1, h2, h3, h4, h5, h6 {
@@ -138,8 +138,8 @@ table {
 }
 
 table tr {
-  border-top: 1px solid #cccccc;
-  background-color: white;
+  border-top: 1px solid #fff;
+  background-color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -150,14 +150,14 @@ table tr:nth-child(2n) {
 
 table tr th {
   font-weight: bold;
-  border: 1px solid #cccccc;
+  border: 1px solid #fff;
   text-align: left;
   margin: 0;
   padding: 6px 13px;
 }
 
 table tr td {
-  border: 1px solid #cccccc;
+  border: 1px solid #fff;
   text-align: left;
   margin: 0;
   padding: 6px 13px;
@@ -188,7 +188,7 @@ table tr td :last-child {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: 18px;
@@ -217,7 +217,7 @@ span[data-pullquote]:before {
   padding: 0 -5% 0 0;
   font-size: 1.3em;
   font-style: italic;
-  color: green;
+  color: #90AEB2;
   text-align: center;
 }
 
@@ -278,16 +278,17 @@ p > img {
   color: #666;
 }
 
+/*
+// Specify the color of the selection
 ::-moz-selection {
-  color: #000;
-  background: #eee;
+  color: $black;
+  background: $lightGray;
 }
-
 ::selection {
-  color: #000;
-  background: #eee;
+  color: $black;
+  background: $lightGray;
 }
-
+*/
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -306,12 +307,14 @@ p > img {
 }
 
 .masthead {
+  position: relative;
   padding: 20px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1.5px solid #90AEB2;
 }
 @media screen and (max-width: 640px) {
   .masthead {
-    text-align: center;
+    margin: 0 10px;
+    color: #4183C4;
   }
 }
 
@@ -384,12 +387,16 @@ nav {
     font-size: 16px;
   }
 }
+nav li {
+  display: inline-block;
+}
 nav a {
   margin-left: 20px;
-  color: #333;
+  color: #B6594c;
   text-align: right;
-  font-weight: 300;
+  font-weight: 350;
   letter-spacing: 1px;
+  text-decoration: underline;
 }
 @media screen and (max-width: 640px) {
   nav a {
@@ -448,7 +455,7 @@ nav a {
   bottom: 0;
   width: 100%;
   height: 89px;
-  background-color: #eee;
+  background-color: #90AEB2;
 }
 
 footer {
@@ -467,7 +474,7 @@ body:after {
 }
 
 #bar {
-  background: #000;
+  background: #90AEB2;
   height: 7px;
   background-size: cover;
   background-position: left 60%;
@@ -826,10 +833,11 @@ Modules - reusable parts of our design
   border-radius: 5px;
 }
 
+/*
 .btn-subscribe {
   line-height: 20px;
   text-decoration: none;
-  background: rgba(0, 0, 0, 0.0823529412);
+  background: #00000015;
   border: none;
   font-size: 12px;
   padding: 0px 7px;
@@ -851,7 +859,7 @@ Modules - reusable parts of our design
   vertical-align: bottom;
   margin: 0 -2px 0 -5px;
 }
-
+*/
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
     width: 60px;

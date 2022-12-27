@@ -1,3 +1,8 @@
+
+name                : "Isabel Silva Corpus"
+author              : "Isabel Silva Corpus"
+title               : "Isabel Silva Corpus"
+
 # Where things are
 source              : .
 destination         : ./_site
@@ -23,7 +28,7 @@ strict_front_matter : false
 
 # Filtering Content
 show_drafts         : null
-limit_posts         : 0
+limit_posts         : 10
 future              : false
 unpublished         : false
 
@@ -42,7 +47,7 @@ incremental         : false
 detach              : false
 port                : 4000
 host                : 127.0.0.1
-#baseurl             : "" # does not include hostname
+baseurl             : "" 
 url                 : "https://isabelsilvacorpus.github.io"
 show_dir_listing    : false
 

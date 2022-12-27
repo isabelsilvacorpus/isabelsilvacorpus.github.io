@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-## Contact me 
+## Contact Me 
 
 If you're looking to connect, please feel free to reach out!
 
