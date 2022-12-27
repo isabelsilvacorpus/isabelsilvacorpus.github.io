@@ -266,12 +266,13 @@ p > img {
 
 .wrapper-masthead {
   margin-bottom: 25px;
+  margin-top: 20px;
 }
 
 .masthead {
   position: relative;
-  padding: 20px 0;
-  border-bottom: 1.5px solid $secondary;
+  padding: 10px 0; // originally 20px 0;
+  border-bottom: 1px solid $secondary;
   
   @include mobile {
     margin: 0 10px;
@@ -307,11 +308,11 @@ p > img {
 }
 
 .site-name {
-  margin: 0;
-  color: $darkGray;
+  margin: 20;
+  color: $cranberry;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
+  font-weight: 350;
   font-size: 28px;
   letter-spacing: 1px;
   text-align: left;
@@ -333,7 +334,7 @@ p > img {
 
 nav {
   float: right;
-  margin-top: 23px; 
+  margin-top: 50px; 
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -354,7 +355,7 @@ nav {
     text-align: right;
     font-weight: 350;
     letter-spacing: 1px;
-    text-decoration:underline;
+    text-decoration:none;
 
     @include mobile {
       margin: 0 10px;
