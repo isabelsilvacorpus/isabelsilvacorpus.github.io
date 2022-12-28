@@ -236,7 +236,11 @@ ul, ol {
 }
 
 ul {
-  list-style-type: disc;
+  list-style-type: none;
+}
+
+ul.post-detailed {
+  text-decoration: none;
 }
 
 ol {
