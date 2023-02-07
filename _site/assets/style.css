@@ -33,10 +33,6 @@ body {
   line-height: 1;
 }
 
-ol, ul {
-  list-style: none;
-}
-
 blockquote, q {
   quotes: none;
 }
@@ -72,7 +68,7 @@ body {
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   height: 100%;
 }
 
@@ -243,16 +239,8 @@ ul.post-detailed {
   text-decoration: none;
 }
 
-ol {
-  list-style-type: decimal;
-}
-
 ol ul, ul ol, ul ul, ol ol {
   margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
 }
 
 em, i {

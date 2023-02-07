@@ -75,3 +75,6 @@ kramdown:
   hard_wrap         : false
   footnote_nr       : 1
   show_warnings     : false
+
+social_links:
+  linkedin          : isabel-corpus-03b986124
