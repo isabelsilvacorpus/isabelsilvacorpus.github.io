@@ -7,6 +7,4 @@ title: Contact
 
 If you're looking to connect, please feel free to reach out!
 
-Email: isasilvacorpus [at] gmail [dot] com
-
-
+Email: isabel [dot] corpus [at] yale [dot] aya [dot] com
