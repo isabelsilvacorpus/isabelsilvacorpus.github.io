@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "My first post!"
+title:  "Under Construction"
 ---
 
-**Hello world**, this is my first Jekyll blog post.
+**Hello**, check in soon for an update :) 
 
-I am still trying to figure out how to format this section.. then I hope to regularly update with various thoughts and reflections!
+Work in progress! I'm still figuring out how to format, and of course, what to post. 

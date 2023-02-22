@@ -220,12 +220,12 @@ span[data-pullquote]:before {
 }
 
 a {
-  color: #1da894;
+  color: #228a7a;
   text-decoration: none;
   cursor: pointer;
 }
 a:hover, a:active {
-  color: #1da894;
+  color: #4183C4;
 }
 
 ul, ol {
