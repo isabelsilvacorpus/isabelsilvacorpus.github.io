@@ -469,12 +469,13 @@ nav {
 .container_center {
   position: relative;
   background-color: $primary;
-  height: 140vh; //auto;
+  height: auto; //140vh;
   width: 100%;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 12px; 
+  padding-bottom: 20px;
 
   // borders
 

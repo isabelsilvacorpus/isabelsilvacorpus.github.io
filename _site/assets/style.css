@@ -488,12 +488,13 @@ nav a:hover {
 .container_center {
   position: relative;
   background-color: #fff7f5;
-  height: 140vh;
+  height: auto;
   width: 100%;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 12px;
+  padding-bottom: 20px;
   border-top-width: 51px;
   border-left: solid;
   border-right: solid;
