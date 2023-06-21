@@ -30,3 +30,7 @@ These days, outside of work, I like to play basketball and attend [Moth StorySLA
 ### Publications 
 
 - Kumar, N., **Corpus, I.** Hans, M. et al. COVID-19 vaccine perceptions in the initial phases of US vaccine roll-out: an observational study on reddit. BMC Public Health 22, 446 (2022). https://doi.org/10.1186/s12889-022-12824-7
+
+## Unpublished work 
+
+- **Corpus, I.** (2021). Understanding “Bias”: Subspace Projection Debiasing and Social Ontology [Unpublished undergraduate thesis]. Yale College.
