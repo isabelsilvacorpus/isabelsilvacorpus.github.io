@@ -1,0 +1,18 @@
+$lusitana-font-path: "../../assets/fonts/lusitana" !default;
+/* regular */
+@font-face {
+  font-family: 'Lusitana', serif;
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400px;
+  src: local("Lusitana-Regular"), local("Lusitana-Regular"), url('#{$lato-font-path}/Lusitana-Regular.ttf') format("ttf");
+}
+
+/* bold */
+@font-face {
+    font-family: 'Lusitana', serif;
+    font-style: normal;
+    font-display: auto;
+    font-weight: 700;
+    src: local("Lusitana-Bold"), local("Lusitana-Bold"), url('#{$lato-font-path}/Lusitana-Bold.ttf') format("ttf");
+  }
