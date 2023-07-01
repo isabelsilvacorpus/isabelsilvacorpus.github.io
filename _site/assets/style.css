@@ -86,7 +86,7 @@ html {
 }
 
 body {
-  background-color: #edced4;
+  background-color: #fce1dc;
   font-family: "Lato", sans-serif;
   color: #404040;
   line-height: 1.7;
@@ -439,7 +439,7 @@ nav li {
 }
 nav a {
   margin-left: 20px;
-  color: #edced4;
+  color: #fce1dc;
   text-align: right;
   font-weight: 400;
   letter-spacing: 1px;
@@ -505,7 +505,7 @@ nav a:hover {
   width: 100%;
   top: 0px;
   z-index: 2500;
-  background-color: #edced4;
+  background-color: #fce1dc;
   align-items: center;
 }
 
