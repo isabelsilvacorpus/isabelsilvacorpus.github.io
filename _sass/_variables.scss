@@ -7,7 +7,7 @@
 $primary: #fff7f5;// #fff7f0;
 $secondary: #79ada6; // #90AEB2;
 $tertiary: #096658; //#B6594c;
-$backgroundpink: #fce1dc; // my favorite pink: #edced4; 
+$backgroundpink: #fee4e0; // my favorite pink: #edced4; 
 $linkcolor:  #228a7a;//#1da894;
 
 // Colors
@@ -30,13 +30,22 @@ $lightGray: #eee;
 $white: #fff;
 
 // Font stacks
+
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
-$lato: 'Lato';
+$Lato: Lato;
+$Montserrat: Montserrat;
 
-$primary-font: 'Lato', sans-serif; //Helvetica, Arial, sans-serif;
-$primary-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$primary-font: $georgia; 
+$primary-sans-serif: $georgia; 
 
 // Mobile breakpoints
 @mixin mobile {
