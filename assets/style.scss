@@ -6,7 +6,7 @@
 // ****** /
 
 @use "reset" as *;
-@use "variables" as *;
+@use "../_sass/_variables" as *;
 @use "svg-icons" as *;
 // Syntax highlighting @import is at the bottom of this file
 
@@ -384,26 +384,33 @@ nav {
   border-left: solid;
   border-right: solid;
   border-color: $secondary;
-  border-left-width: 0px; //2px;
-  border-right-width: 0px; //2px;
+  border-left-width: 5px; //2px;
+  border-right-width: 5px; //2px;
+  border-bottom-width: 5px;
   border-style: solid;
 }
 
 .wrapper-main {
-  padding-bottom: 0 px; //134px;
+  padding-bottom: 10 px; //134px;
 }
 
 .wrapper-footer {
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 1px; //89px;
+  height: 10px; //89px;
   margin-bottom: 20px;
   //background-color: $secondary; // this is what removed a line at the bottom of each post
 }
 
+.wrapper-bottom {
+  position: static;
+  bottom: 30px;
+  height: 50px;
+}
+
 footer {
-  padding: 0; //20px 0;
+  padding: 10; //20px 0;
   text-align: center;
 }
 
