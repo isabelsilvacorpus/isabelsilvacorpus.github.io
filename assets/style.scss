@@ -1,12 +1,13 @@
 ---
 ---
 
-//
+// ******* /
 // IMPORTS
-//
+// ****** /
 
-@import "reset";
-@import "variables";
+@use "reset" as *;
+@use "variables" as *;
+@use "svg-icons" as *;
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -21,29 +22,35 @@ html {
 }
 
 body {
-  background-color: $backgroundpink;
+  background-color: $page-background-color;
   font-family: $primary-font; 
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   height: 100%;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 850px; //740px;
   padding: 0 10px;
   width: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.section-title {
+  font-size: 18px;
+  color: $secondary;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, section-title {
   font-family: $primary-sans-serif; 
-  color: $darkerGray;
+  color: $darker-gray;
   font-weight: 500;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
+  margin: 5px;
   padding: 0;
   text-align: left;
 
@@ -242,8 +249,8 @@ p > img {
 
 .site-avatar {
   float: left;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   margin-right: 10px;
 
   @include mobile {
@@ -270,11 +277,13 @@ p > img {
 .site-name {
   color: $tertiary;
   cursor: pointer;
+  position: relative;
   font-family: $primary-sans-serif; 
   font-weight: 500;
   font-size: 28px;
   letter-spacing: 1px;
   text-align: left;
+  top: 35px;
 
   @include mobile {
     text-align: center;
@@ -282,7 +291,6 @@ p > img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
 
@@ -305,7 +313,7 @@ nav {
   margin-top: 10px; 
   margin-bottom: 10px;
   font-family: $primary-sans-serif; 
-  font-size: 16px;
+  font-size: 16px; 
 
   @include mobile {
     float: none;
@@ -320,7 +328,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $backgroundpink;
+    color: $page-background-color;
     text-align: right;
     font-weight: 400;
     letter-spacing: 1px;
@@ -332,7 +340,7 @@ nav {
   }
 
   a:hover {
-    background-color: $lightpink;
+    background-color: $text-container-color;
     color: $tertiary;
     height: 100%;
   }
@@ -340,7 +348,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $light-gray;
 }
 
 .posts > .post:last-child {
@@ -355,29 +363,29 @@ nav {
   width: 100%;
   top: 0px;
   z-index: 2500;
-  background-color: $backgroundpink;
+  background-color:$page-background-color;
   align-items: center;
 }
 
 .container_center {
   position: relative;
-  background-color: $primary;
+  background-color: $text-container-color;
   height: auto; //140vh;
   width: 100%;
   margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 12px; 
-  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px; 
+  padding-bottom: 30px;
 
   // borders
 
-  border-top-width: 51px;
+  border-top-width: 52px;
   border-left: solid;
   border-right: solid;
   border-color: $secondary;
-  border-left-width: 2px;
-  border-right-width: 2px;
+  border-left-width: 0px; //2px;
+  border-right-width: 0px; //2px;
   border-style: solid;
 }
 
@@ -1087,7 +1095,6 @@ Modules - reusable parts of our design
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "svg-icons";
 
 .icon {
   height: 1em;

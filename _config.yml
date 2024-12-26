@@ -1,7 +1,8 @@
 name                : "Isabel Silva Corpus"
-author              : "Isabel Corpus"
+author              : "Isabel Silva Corpus"
 title               : "Isabel Silva Corpus"
 avatar              : "pixel_me.png"
+description         : "PhD Student at Cornell Info Sci"
 
 # Where things are
 source              : .

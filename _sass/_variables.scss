@@ -1,18 +1,17 @@
 
-//
 // VARIABLES
-//
 
 // Palette 
-$primary: #fff7f5;// #fff7f0;
-$secondary: #79ada6; // #90AEB2;
-$tertiary: #096658; //#B6594c;
-$backgroundpink: #fee4e0; // my favorite pink: #edced4; 
-$linkcolor:  #228a7a;//#1da894;
+// $primary: #fff7f5; 
+$secondary: #79ada6;  
+$tertiary: #096658;  
+$page-background-color: #fff;
+$text-container-color: #fff;
+$linkcolor: #228a7a; 
 
 // Colors
 $blue: #4183C4;
-$lightpink: #fce4de;
+$light-pink: #fce4de;
 $knitsweater2: #fff7f0;
 $lightpurple: #AF9FCC;
 $camel: #be845e;
@@ -21,35 +20,34 @@ $cranberry: #B6594c;
 $steelblue: #90AEB2;
 $midnightgreen: #37514D;
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+// Grays 
+$black: #000; 
+$darker-gray: #222; 
+$dark-gray: #333; 
+$gray: #666; 
+$light-gray: #eee; 
+$white: #fff; 
 
 // Font stacks
 
 .montserrat-font {
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-$Lato: Lato;
-$Montserrat: Montserrat;
-
+$helvetica: helvetica, arial, sans-serif;
+$helvetica-neue: "Helvetica Neue", helvetica, arial, sans-serif;
+$georgia: georgia, serif;
+$lato: lato;
+$montserrat: "montserrat";
 $primary-font: $georgia; 
 $primary-sans-serif: $georgia; 
 
 // Mobile breakpoints
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+  @media screen and (width == 640px) {
     @content;
   }
 }

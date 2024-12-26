@@ -3,6 +3,4 @@ layout: post
 title:  "Under Construction"
 ---
 
-**Hello**, check in soon for an update :) 
-
-Work in progress! I'm still figuring out how to format, and of course, what to post. 
+Thanks for checking out my projects page... will hopefully update soon :) 
