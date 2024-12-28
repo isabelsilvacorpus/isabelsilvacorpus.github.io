@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div id="bar"></div>
+    <div class="wrapper-container">
+      <div class="wrapper-masthead">
+        <div class="container">
+          
+          <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}/assets/images/{{ site.avatar }}" alt="{{ site.title }}" /></a> 
+            <div class="site-info">
+              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            </div>
+
+          </header>
+
+          <header class="navbar clearfix">
+              {% include navigation.html %}
+          </header>
+          <div class="container_center">
+      <div class="wrapper-main">
+
+        <div class="wrapper-img">
+            <img class="img" src="assets/images/placeholder_image_200_250.png" alt="My image" loading="lazy">
+            <p class="img-caption">isc36 [at] cornell [dot] edu</p>
+        </div>
+        {% for file in site.index_page_collection %}
+            <h2 id="{{file.section_id}}" class="section-title">{{ file.section_header }}</h2>
+            <p>{{ file.content }}</p> 
+            <br>
+        {% endfor %}
+      </div>
+      
+      </div>
+      <div class="wrapper-bottom"></div>
+    </div>
+    </div>
+
+  </body>
+</html>
