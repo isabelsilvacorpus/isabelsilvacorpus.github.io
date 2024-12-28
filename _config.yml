@@ -85,6 +85,6 @@ collections:
     order:
       - bio.md
       - work_experience.md
-      - publications_copy.md
+      - publications.md
       - cv.md
       - contact_me.md
