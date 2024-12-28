@@ -262,7 +262,7 @@ a {
   cursor: pointer;
 }
 a:hover, a:active {
-  color: #4183C4;
+  color: #E4AEC5;
 }
 
 ul, ol {
@@ -307,6 +307,9 @@ img {
 .wrapper-img > img {
   float: right;
   margin-bottom: 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #79ada6;
 }
 
 .img-caption {
@@ -456,7 +459,7 @@ nav a {
   }
 }
 nav a:hover {
-  background-color: #fff;
+  background-color: #fce4de;
   color: #096658;
   height: 100%;
 }
