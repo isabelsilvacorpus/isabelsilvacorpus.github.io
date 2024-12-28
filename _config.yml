@@ -79,3 +79,12 @@ kramdown:
 
 footer-links:
   linkedin          : isabel-corpus-03b986124
+
+collections:
+  index_page_collection:
+    order:
+      - bio.md
+      - work_experience.md
+      - publications_copy.md
+      - cv.md
+      - contact_me.md

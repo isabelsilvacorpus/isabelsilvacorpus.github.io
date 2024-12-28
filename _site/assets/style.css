@@ -135,7 +135,7 @@ body {
 
 .section-title {
   font-size: 18px;
-  color: #79ada6;
+  color: #217568;
   font-weight: bold;
 }
 
@@ -293,9 +293,31 @@ img {
   max-width: 100%;
 }
 
+.wrapper-img {
+  max-width: 100%;
+  float: right;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.wrapper-img > img {
+  float: right;
+  margin-bottom: 0px;
+}
+
+.img-caption {
+  font-size: 11;
+  font-family: georgia, serif;
+  text-align: center;
+  margin-top: 0px;
+}
+
 p > img {
   text-align: center;
-  display: block;
+  display: inline-block;
   margin: 0 auto;
 }
 
@@ -473,6 +495,9 @@ nav a:hover {
 
 .wrapper-main {
   padding-bottom: 10 px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .wrapper-footer {
