@@ -27,7 +27,16 @@
         </div>
         {% for file in site.index_page_collection %}
             <h2 id="{{file.section_id}}" class="section-title">{{ file.section_header }}</h2>
-            <p>{{ file.content }}</p> 
+            {% assign paragraphs = file.content | split: '</p>' %}
+            {% for paragraph in paragraphs %}
+              {% if file.section_id == 'publications' and paragraph contains 'Corpus' %}
+                  <div class="wrapper-publications">
+                      <p>{{ paragraph }}</p>
+                  </div>
+              {% else %}
+                  <p>{{ paragraph }}</p>
+              {% endif %}
+            {% endfor %}
             <br>
         {% endfor %}
       </div>

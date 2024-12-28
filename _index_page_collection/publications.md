@@ -2,7 +2,6 @@
 section_header: Publications
 section_id: publications
 ---
-
 Most recent publications on [Google Scholar](https://scholar.google.com/citations?user=DlxdNDQAAAAJ&hl=en&oi=ao).
 
 Beattie, Lex, Isabel Corpus, Lucy H. Lin, and Praveen Ravichandran. "Evaluation Framework for Understanding Sensitive Attribute Association Bias in Latent Factor Recommendation Algorithms." arXiv preprint arXiv:2310.20061 (2023). [https://arxiv.org/abs/2310.20061](https://arxiv.org/abs/2310.20061)
