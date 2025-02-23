@@ -117,7 +117,7 @@ html {
 }
 
 body {
-  background-color: #fff;
+  background-color: #F3E5E6;
   font-family: georgia, serif;
   color: #404040;
   line-height: 1.5;
@@ -294,6 +294,12 @@ img {
   max-width: 100%;
 }
 
+.profile-img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .wrapper-img {
   max-width: 100%;
   float: right;
@@ -327,7 +333,7 @@ p > img {
 }
 
 .wrapper-publications {
-  border-left-color: #fce4de;
+  border-left-color: #db9eb5;
   border-left-width: 5px;
   border-left-style: solid;
   padding-left: 5px;
@@ -447,7 +453,7 @@ nav li {
 }
 nav a {
   margin-left: 20px;
-  color: #fff;
+  color: #F3E5E6;
   text-align: right;
   font-weight: 400;
   letter-spacing: 1px;
@@ -481,7 +487,7 @@ nav a:hover {
   width: 100%;
   top: 0px;
   z-index: 2500;
-  background-color: #fff;
+  background-color: #F3E5E6;
   align-items: center;
 }
 

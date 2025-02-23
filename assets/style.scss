@@ -207,6 +207,12 @@ img {
   max-width: 100%;
 }
 
+.profile-img {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+ }
+
 .wrapper-img {
   max-width: 100%;
   float: right;
@@ -240,7 +246,7 @@ p > img {
 }
 
 .wrapper-publications {
-  border-left-color: $light-pink;
+  border-left-color: $publications-bullet;
   border-left-width: 5px;
   border-left-style: solid;
   padding-left: 5px;
@@ -397,7 +403,7 @@ nav {
   width: 100%;
   top: 0px;
   z-index: 2500;
-  background-color:$page-background-color;
+  background-color: $page-background-color;
   align-items: center;
 }
 
