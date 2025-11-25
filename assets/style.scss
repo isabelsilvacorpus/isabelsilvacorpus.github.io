@@ -208,8 +208,8 @@ img {
 }
 
 .profile-img {
-  width: 250px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
  }
 
@@ -1156,4 +1156,31 @@ Modules - reusable parts of our design
     vertical-align: -0.15em;
     display: inline-block;
   }
+}
+
+// News
+.news-container {
+  max-height: 180px;      /* controls visible height */
+  overflow-y: auto;       /* makes it scrollable */
+  padding-right: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid $publications-bullet;
+  padding-left: 0.75rem;
+}
+
+.news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news-item {
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+.news-date {
+  font-weight: bold;
+  margin-right: 0.4rem;
+  white-space: nowrap;
 }

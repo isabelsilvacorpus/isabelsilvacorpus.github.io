@@ -25,19 +25,40 @@
             <img class="profile-img" src="assets/images/image_for_website.png" alt="My image" loading="lazy">
             <p class="img-caption">isc36 [at] cornell [dot] edu</p>
         </div>
-        {% for file in site.index_page_collection %}
-            <h2 id="{{file.section_id}}" class="section-title">{{ file.section_header }}</h2>
-            {% assign paragraphs = file.content | split: '</p>' %}
+        {% assign sections = site.index_page_collection | sort: 'order' %}
+        {% for file in sections %}
+          <h2 id="{{file.section_id}}" class="section-title">{{ file.section_header }}</h2>
+          {% assign paragraphs = file.content | split: '</p>' %}
+        
+          {% if file.section_id == 'news' %}
+            <div class="news-container">
+              <ul class="news-list">
+                {% for paragraph in paragraphs %}
+                  {% assign p = paragraph | strip %}
+                  {% if p != '' %}
+                    <li class="news-item">
+                      {{ p }}</p>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+          {% else %}
             {% for paragraph in paragraphs %}
-              {% if file.section_id == 'publications' and paragraph contains 'Corpus' %}
+              {% assign p = paragraph | strip %}
+              {% if p != '' %}
+                {% if file.section_id == 'publications' and p contains 'Corpus' %}
                   <div class="wrapper-publications">
-                      <p>{{ paragraph }}</p>
+                    <p>{{ p }}</p>
                   </div>
-              {% else %}
-                  <p>{{ paragraph }}</p>
+                {% else %}
+                  <p>{{ p }}</p>
+                {% endif %}
               {% endif %}
             {% endfor %}
-            <br>
+          {% endif %}
+        
+          <br>
         {% endfor %}
       </div>
       
