@@ -1,6 +1,7 @@
 ---
 section_header: Publications
 section_id: publications
+order: 4
 ---
 Most recent publications on [Google Scholar](https://scholar.google.com/citations?user=DlxdNDQAAAAJ&hl=en&oi=ao).
 
