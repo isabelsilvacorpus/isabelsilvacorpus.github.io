@@ -30,5 +30,9 @@ order: 3
 </p>
 
 <p>
+    <span class="news-date">August 2024</span>Excited to join the <a href="https://aipp.cis.cornell.edu/">AIPP</a> initiative!
+</p>
+
+<p>
     <span class="news-date">August 2024</span>Moving to Ithaca to start my PhD in Information Science at Cornell University! 
 </p>
