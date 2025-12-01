@@ -117,7 +117,7 @@ html {
 }
 
 body {
-  background-color: #F3E5E6;
+  background-color: #f5dfe0;
   font-family: georgia, serif;
   color: #404040;
   line-height: 1.5;
@@ -176,7 +176,7 @@ h4 {
 
 p {
   margin: 15px 0;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 table {
@@ -453,7 +453,7 @@ nav li {
 }
 nav a {
   margin-left: 20px;
-  color: #F3E5E6;
+  color: #f5dfe0;
   text-align: right;
   font-weight: 400;
   letter-spacing: 1px;
@@ -487,7 +487,7 @@ nav a:hover {
   width: 100%;
   top: 0px;
   z-index: 2500;
-  background-color: #F3E5E6;
+  background-color: #f5dfe0;
   align-items: center;
 }
 
