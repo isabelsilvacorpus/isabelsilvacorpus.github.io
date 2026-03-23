@@ -5,6 +5,11 @@ order: 3
 ---
 
 <p>
+  <span class="news-date">March 2026</span>
+  I will be at NYU's <a href="https://airesponsibly.net/rai_research_day">Responsible AI Research Day</a> presenting a poster for our work-in-progress,“Into the Unknown: Accounting for Missing Demographic Data when Mitigating Ad Delivery Skew.”</a>
+</p>
+
+<p>
   <span class="news-date">November 2025</span>
   Working paper <a href="https://arxiv.org/pdf/2511.13949">“Introducing AI to an Online Petition Platform Changed Outputs but not Outcomes.”</a> now on arXiv!
 </p>
