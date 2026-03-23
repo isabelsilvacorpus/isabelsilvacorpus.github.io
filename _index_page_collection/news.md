@@ -6,7 +6,7 @@ order: 3
 
 <p>
   <span class="news-date">March 2026</span>
-  I will be at NYU's <a href="https://airesponsibly.net/rai_research_day">Responsible AI Research Day</a> presenting a poster for our work-in-progress,“Into the Unknown: Accounting for Missing Demographic Data when Mitigating Ad Delivery Skew.”</a>
+  I will be at NYU's <a href="https://airesponsibly.net/rai_research_day">Responsible AI Research Day</a> presenting a poster for our work-in-progress,“Into the Unknown: Accounting for Missing Demographic Data when Mitigating Ad Delivery Skew.”
 </p>
 
 <p>
