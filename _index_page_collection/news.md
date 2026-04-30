@@ -5,13 +5,28 @@ order: 3
 ---
 
 <p>
+  <span class="news-date">April 2026</span>
+  I will be presenting a parallel talk at IC2S2 2026 in Burlington, Vermont this summer about my working paper, <a href="https://arxiv.org/pdf/2511.13949">“Introducing AI to an Online Petition Platform Changed Outputs but not Outcomes.”</a>
+</p>
+
+<p>
+  <span class="news-date">April 2026</span>
+  My paper with Allison Koenecke, "Into the Unknown: Accounting for Missing Demographic Data when Mitigating Ad Delivery Skew" was accepted to ACM FAccT 2026!
+</p>
+
+<p>
+  <span class="news-date">April 2026</span>
+  Excited to share I was awarded a Cornell Siegel PiTech Impact Fellowship. This summer I will be working with the NYC Office of Technology & Innovation (OTI).
+</p>
+
+<p>
   <span class="news-date">March 2026</span>
   I will be at NYU's <a href="https://airesponsibly.net/rai_research_day">Responsible AI Research Day</a> presenting a poster for our work-in-progress,“Into the Unknown: Accounting for Missing Demographic Data when Mitigating Ad Delivery Skew.”
 </p>
 
 <p>
   <span class="news-date">November 2025</span>
-  Working paper <a href="https://arxiv.org/pdf/2511.13949">“Introducing AI to an Online Petition Platform Changed Outputs but not Outcomes.”</a> now on arXiv!
+  Working paper <a href="https://arxiv.org/pdf/2511.13949">“Introducing AI to an Online Petition Platform Changed Outputs but not Outcomes”</a> now on arXiv!
 </p>
 
 <p>
