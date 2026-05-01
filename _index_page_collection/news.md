@@ -16,7 +16,7 @@ order: 3
 
 <p>
   <span class="news-date">April 2026</span>
-  Excited to share I was awarded a Cornell Siegel PiTech Impact Fellowship. This summer I will be working with the NYC Office of Technology & Innovation (OTI).
+  Excited to share I was awarded a 2026 Frederic and Susan Rubinstein PiTech PhD Impact Fellowship. This summer I will be working with the NYC Office of Technology & Innovation (OTI).
 </p>
 
 <p>
