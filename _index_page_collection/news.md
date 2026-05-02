@@ -5,8 +5,13 @@ order: 3
 ---
 
 <p>
+  <span class="news-date">May 2026</span>
+  I was accepted to the 2026 DLI Conscientious Tech Design Workshop, and will be participating this summer! </a>
+</p>
+
+<p>
   <span class="news-date">April 2026</span>
-  I will be presenting a parallel talk at IC2S2 2026 in Burlington, Vermont this summer about my working paper, <a href="https://arxiv.org/pdf/2511.13949">“Introducing AI to an Online Petition Platform Changed Outputs but not Outcomes.”</a>
+  I will be presenting a parallel talk at IC2S2 2026 in Burlington, Vermont this summer about my working paper <a href="https://arxiv.org/pdf/2511.13949">“Introducing AI to an Online Petition Platform Changed Outputs but not Outcomes.”</a>
 </p>
 
 <p>
