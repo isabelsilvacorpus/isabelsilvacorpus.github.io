@@ -6,7 +6,7 @@ order: 3
 
 <p>
   <span class="news-date">May 2026</span>
-  I was accepted to the 2026 DLI Conscientious Tech Design Workshop, and will be participating this summer! </a>
+  I was accepted to the 2026 DLI Conscientious Tech Design Workshop, and will be participating this summer!
 </p>
 
 <p>
