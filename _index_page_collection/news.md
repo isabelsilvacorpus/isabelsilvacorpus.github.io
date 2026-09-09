@@ -5,6 +5,16 @@ order: 3
 ---
 
 <p>
+  <span class="news-date">August 2026</span>
+  I started my third year of the PhD, this year as a <a href="https://dli.tech.cornell.edu/people"> DLI Doctoral Fellow!  </a>
+</p>
+
+<p>
+  <span class="news-date">June 2026</span>
+  <a href="http://doi.org/10.1145/3805689.3812375">"Into the Unknown: Accounting for Missing Demographic Data when Mitigating Ad Delivery Skew"</a> was covered in a <a href="https://news.cornell.edu/stories/2026/06/new-method-helps-online-ads-reach-overlooked-groups"> Cornell Chronicle piece</a>, check it out for a great summary of the research.
+</p>
+
+<p>
   <span class="news-date">June 2026</span>
   I will be in Montreal from June 25-28 at FAccT 2026, presenting <a href="http://doi.org/10.1145/3805689.3812375">"Into the Unknown: Accounting for Missing Demographic Data when Mitigating Ad Delivery Skew"</a>.
 </p>
