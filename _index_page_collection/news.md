@@ -4,6 +4,12 @@ section_header: News
 order: 3  
 ---
 
+
+<p>
+  <span class="news-date">September 2026</span>
+  Our paper <a href="https://www.nature.com/articles/s41562-026-02580-8">Introducing AI to an Online Petition Platform Changed Outputs but not Outcomes</a> is out now in Nature Human Behaviour! You can also check out some coverage of the piece in the <a href="https://news.cornell.edu/stories/2026/09/ai-enhanced-petitions-changeorg-more-text-less-success">Cornell Chronicle</a>.
+</p>
+
 <p>
   <span class="news-date">August 2026</span>
   I started my third year of the PhD, this year as a <a href="https://dli.tech.cornell.edu/people"> DLI Doctoral Fellow!  </a>

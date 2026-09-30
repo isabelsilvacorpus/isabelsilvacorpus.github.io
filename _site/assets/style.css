@@ -778,4 +778,44 @@ Modules - reusable parts of our design
   white-space: nowrap;
 }
 
+/* links under each publication */
+.pub-links {
+  display: block;
+  margin-top: 0.35em;
+  font-size: 0.8em;
+}
+
+.pub-links a {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 8px;
+  border: 1px solid #c9d6e3;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  background: #eef4fa;
+  border-color: #2a6fb0;
+}
+
+.pub-entry {
+  margin-bottom: 2rem;
+}
+
+.pub-entry .wrapper-publications {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pub-entry .wrapper-publications p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pub-entry .pub-links {
+  margin-top: 0.2em;
+  padding-left: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
