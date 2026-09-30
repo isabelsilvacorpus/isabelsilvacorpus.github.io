@@ -47,11 +47,17 @@
             {% for paragraph in paragraphs %}
               {% assign p = paragraph | strip %}
               {% if p != '' %}
-                {% if file.section_id == 'publications' and p contains 'Corpus' %}
-                  <div class="wrapper-publications">
-                    <p>{{ p }}</p>
-                  </div>
-                {% else %}
+                  {% if file.section_id == 'publications' and p contains 'Corpus' %}
+                    {% assign parts = p | split: '<span class="pub-links">' %}
+                    <div class="pub-entry">
+                      <div class="wrapper-publications">
+                        {{ parts[0] }}</p>
+                      </div>
+                      {% if parts.size > 1 %}
+                        <span class="pub-links">{{ parts[1] }}
+                      {% endif %}
+                    </div>
+                  {% else %}
                   <p>{{ p }}</p>
                 {% endif %}
               {% endif %}
