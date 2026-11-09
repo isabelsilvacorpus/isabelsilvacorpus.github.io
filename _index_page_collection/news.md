@@ -6,6 +6,11 @@ order: 3
 
 
 <p>
+  <span class="news-date">November 2026</span>
+  I will be attending <a href="https://ide.mit.edu/events/2026-conference-on-digital-experimentation-mit-codemit/">CODE@MIT</a> to present some work in progress on the impact of friction in AI writing support on commitment to downstream task outcomes. 
+</p>
+
+<p>
   <span class="news-date">September 2026</span>
   Our paper <a href="https://www.nature.com/articles/s41562-026-02580-8">Introducing AI to an Online Petition Platform Changed Outputs but not Outcomes</a> is out now in Nature Human Behaviour! You can also check out some coverage of the piece in the <a href="https://news.cornell.edu/stories/2026/09/ai-enhanced-petitions-changeorg-more-text-less-success">Cornell Chronicle</a>.
 </p>
