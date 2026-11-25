@@ -16,6 +16,11 @@ order: 3
 </p>
 
 <p>
+  <span class="news-date">September 2026</span>
+  This summer I was a fellow with the New York City Office of Technology and Innovation (OTI) as a Rubinstein Fellow with the Cornell Public Interest Technology Initiative. I wrote a blogpost about my time with OTI, which you can read <a href="https://www.pi.tech.cornell.edu/spotlight/operationalizing-algorithmic-fairness-with-decision-support-tools-at-the-nyc-office-of-technology-innovation">here</a>!
+</p>
+
+<p>
   <span class="news-date">August 2026</span>
   I started my third year of the PhD, this year as a <a href="https://dli.tech.cornell.edu/people"> DLI Doctoral Fellow!  </a>
 </p>
